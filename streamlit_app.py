@@ -1,10 +1,10 @@
 import numpy as np
 import streamlit as st
-from tensorflow.keras.models import load_model
+from tensorflow import load_model
 import cv2
 from collections import deque
 import os
-import subprocess
+import subprocessa
 
 # loading the saved model
 loaded_model = load_model("C:\\Users\\Karla\\Desktop\\test_model\\model\\SELWYN69.h5")
